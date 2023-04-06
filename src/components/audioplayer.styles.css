@@ -1,0 +1,9 @@
+.player_image{
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    aspect-ratio: 16/9;
+}
+.player_container{
+    width:300px;
+}

@@ -1,0 +1,30 @@
+
+.form_fields.MuiBox-root{
+    padding: .6rem;
+    display: flex;
+    flex-direction: column;
+}
+.form_button.MuiBox-root{
+    padding: 1rem 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border:none;
+    padding:.8rem;
+    margin: 0 1.2rem;
+    
+    background-color:#7b818a;
+    border-radius: 3px;
+    color:#eef2f7;
+    outline:none;
+    letter-spacing: 1.5px;
+    font-size: 14px;
+}
+label{
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 1.2rem;
+    color: #eef2f7;
+
+}
