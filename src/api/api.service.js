@@ -2,7 +2,8 @@ import axios from "axios";
 /**
  * Server Url or Lambda Url
  */
-const baseUrl = "http://localhost:4000";
+// const baseUrl = "http://localhost:4000";
+const baseUrl = "https://3ii4kl7onf.execute-api.us-east-1.amazonaws.com";
 export async function authenticateUserInfo(userInfo) {
   return await axios.post(baseUrl + "/api/users/login", userInfo);
 }

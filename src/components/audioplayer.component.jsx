@@ -25,7 +25,8 @@ export const OnlyPlayPauseButton = () => {
   const [playing, setPlaying] = useState(false);
   const [songURL, setSongURL] = useState([""]);
   const handlePlay = () => {
-    const baseUrl = `http://localhost:4000/api/songs/${selectedSong?.audio}`;
+    // const baseUrl = `http://localhost:4000/api/songs/${selectedSong?.audio}`;
+    const baseUrl = `https://3ii4kl7onf.execute-api.us-east-1.amazonaws.com/api/songs/${selectedSong?.audio}`;
     setSongURL(baseUrl);
     setPlaying(true);
   };
